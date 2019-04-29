@@ -11,6 +11,7 @@ Router.map(function() {
 
   // this.route('posts', { path: '/r/:subreddit_id'})
   this.route('posts', { path: '/r/:subreddit_id'})
+  this.route('tweets');
 });
 
 export default Router;
